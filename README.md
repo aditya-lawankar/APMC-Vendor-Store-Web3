@@ -3,7 +3,7 @@
 A decentralized app for APMCs where buyers can:
 1. Count total number of vegetables purchased.
 2. Count total cost of vegetables purchased.
-3. Check whether the buyer makes a profit or a loss after he sells his stock.
+3. Check whether the buyer makes a profit, loss or break even after they sells their stock.
 
 Number of good and bad vegetables are taken as seperate inputs for the above mentioned features.
 
