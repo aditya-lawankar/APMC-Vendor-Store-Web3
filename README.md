@@ -1,6 +1,6 @@
 # APMC-Vendor-Store-Web3
 
-An online portal for APMCs where buyers can:
+A decentralized app for APMCs where buyers can:
 1. Count total number of vegetables purchased.
 2. Count total cost of vegetables purchased.
 3. Check whether the buyer makes a profit or a loss after he sells his stock.
