@@ -89,13 +89,10 @@
     </div>
 
     <script>
-      window.ethereum.enable();
-      var provider = new ethers.providers.Web3Provider(
-        web3.currentProvider,
-        'ropsten'
-      );
+      window.ethereum.request({ method: 'eth_requestAccounts' });
+      var provider = new ethers.providers.Web3Provider(window.ethereum);
 
-      //change this address to that of bank contract
+      // Address of the deployed Vegetable contract (vendor.sol)
       var bankContractAddress = '0x30492b19FE62E7C2Ab57177A952488795A0f0eF1';
       let bankContractABI = [
 	{
